@@ -1,0 +1,50 @@
+﻿@model Blog.Mvc.Entities.Blog
+@{
+    
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="container my-5">
+    <div class="card shadow p-4">
+        <h1 class="text-center text-primary mb-3">@Model.Title</h1>
+
+        <p class="text-muted text-center">
+            Yaradılma tarixi: @Model.CreatedDate.ToString()
+        </p>
+
+        @if (!string.IsNullOrEmpty(Model.MainImage))
+        {
+            <h5 class="text-secondary">Əsas şəkil:</h5>
+            <div class="text-center mb-4">
+                <img src="@Model.MainImage" class="img-fluid rounded shadow" alt="Main Image" style="max-height: 400px;">
+            </div>
+        }
+
+        <div class="mb-4">
+            <p style="white-space: pre-line;">
+                @Model.Content
+            </p>
+        </div>
+
+        @if (Model.Images != null && Model.Images.Any())
+        {
+            <h5 class="text-secondary">Əlavə şəkillər:</h5>
+            <div class="row g-3">
+                @foreach (var image in Model.Images)
+                {
+                    <div class="col-md-4">
+                        <img src="@image.ImageUrl" class="img-thumbnail rounded" alt="Extra Image">
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+

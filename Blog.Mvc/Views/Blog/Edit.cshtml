@@ -1,0 +1,38 @@
+﻿@model Blog.Mvc.Dtos.BlogDtos.UpdateBlogDto
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<h1>Edit</h1>
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<h1>Create</h1>
+<form method="post" asp-action="Edit">
+    <div class="form-group">
+        <label class="form-control">Title</label>
+        <input asp-for="Title" type="text" class="form-control" placeholder="Enter Title">
+        <span asp-validation-for="Title" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label class="form-control">Content</label>
+        <input asp-for="Content" type="text" class="form-control" placeholder="Enter Title">
+        <span asp-validation-for="Content" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label>MainImageUrl</label>
+        <input asp-for="MainImage" type="text" class="form-control">
+        <span asp-validation-for="MainImage" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="CreatedDate" />
+    <input type="hidden" asp-for="BlogId"/>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

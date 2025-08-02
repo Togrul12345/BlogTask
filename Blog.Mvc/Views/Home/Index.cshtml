@@ -1,0 +1,67 @@
+﻿@using Blog.Mvc.Sevices.Pagination
+@model PaginatedList<Blog.Mvc.Entities.Blog>
+@{
+    Layout = "~/Views/UILayout/Index.cshtml";
+    int count = 0;
+}
+<a class="btn btn-primary" asp-controller="Blog" asp-action="Create">Create</a>
+<form asp-controller="Home" asp-action="Index" method="get">
+    <input type="text" name="searchString"   placeholder="Search by Title..." />
+    <button type="submit" class="btn btn-primary" >Search</button>
+</form>
+<form asp-controller="Home" asp-action="Index" method="get">
+   
+    <a asp-route-sort="@ViewData["DateSort"]"  type="submit" class=" btn btn-warning">
+        Filter by Date
+        @(ViewData["DateSort"] == "date_desc" ? "↓DESC" : "ASC↑")
+    </a>
+</form>
+<table class="table table-bordered table-striped">
+    <caption class="caption-top fw-bold">Bu cədvəldə sistemdəki istifadəçilər göstərilir</caption>
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+
+            <th>Title</th>
+            <th>MainImage</th>
+            <th>CreatedDate</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            count = count + 1;
+            <tr>
+                <td>@count</td>
+                <td>@item.Title</td>
+                <td><img height="100px" width="150px" src="@item.MainImage" /></td>
+                <td>@item.CreatedDate</td>
+                <td>
+                    <a class="btn btn-warning" asp-controller="Blog" asp-action="Edit" asp-route-id="@item.BlogId">Edit</a> <br />
+                    <form asp-action="Remove" asp-controller="Blog" asp-route-id="@item.BlogId" method="post">
+                        <button class="btn btn-danger" type="submit" >Delete</button>
+                    </form>
+                   
+                    <a class="btn btn-info" asp-controller="Blog" asp-action="Details" asp-route-id="@item.BlogId">Details</a>
+                    <br />
+                    <a class="btn btn-primary" asp-controller="Image" asp-action="Create" asp-route-id="@item.BlogId">Add Images</a>
+                    <br />
+                    <a class="btn btn-success" asp-controller="Image" asp-action="Remove" asp-route-id="@item.BlogId">Remove Images</a>
+                    
+
+                </td>
+            </tr>
+
+        }
+
+
+    </tbody>
+</table>
+@{
+    var prevDisabled = !Model.HasPrevious ? "disabled" : "";
+    var nextDisabled = !Model.HasNext ? "disabled" : "";
+}
+<a asp-action="Index" asp-route-currentFilter="@ViewData["CurrentFilter"]" asp-route-pageNumber="@(Model.PageIndex - 1)" asp-route-sort="@ViewData["CurrentSort"]" class="btn btn-primary @prevDisabled">Previus</a>
+<a asp-action="Index" asp-route-currentFilter="@ViewData["CurrentFilter"]" asp-route-pageNumber="@(Model.PageIndex + 1)" asp-route-sort="@ViewData["CurrentSort"]" class="btn btn-primary @nextDisabled">Next</a>
+

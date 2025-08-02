@@ -1,0 +1,20 @@
+﻿@using Blog.Mvc.Dtos.ImageDtos
+@model CreateImageDto
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<h1>Create</h1>
+<form method="post" asp-action="Create">
+
+    <div class="form-group">
+        <label>MainImageUrl</label>
+        <input asp-for="ImageUrl" type="text" class="form-control">
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+    <input asp-for="BlogId" value="@ViewBag.blogId" type="hidden"/>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+

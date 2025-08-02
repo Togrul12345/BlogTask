@@ -1,0 +1,33 @@
+﻿@model Blog.Mvc.Entities.Blog
+@{
+    ViewData["Title"] = "Remove";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Image</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Images)
+        {
+            <tr>
+                <th scope="row">@item.ImageId</th>
+                <td>
+                    <img src="@item.ImageUrl" alt="Image" style="max-height: 200px; max-width: 200px;" />
+                    <form method="post" asp-action="RemoveImage" asp-route-id="@item.ImageId">
+                       <input type="hidden" asp-for="BlogId"/>
+                        <button type="submit" class="btn btn-danger">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        })
+       
+       
+    </tbody>
+</table>
+

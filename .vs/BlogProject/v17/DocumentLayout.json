@@ -1,0 +1,595 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\sevices\\implementation\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\sevices\\implementation\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\contexts\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\contexts\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\views\\blog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\sevices\\interfaces\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\sevices\\interfaces\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\views\\blog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\views\\blog\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\sevices\\pagination\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\sevices\\pagination\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\sevices\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\sevices\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\views\\blog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\dtos\\blogdtos\\createblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\dtos\\blogdtos\\createblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\views\\image\\remove.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\views\\image\\remove.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\dtos\\blogdtos\\updateblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\dtos\\blogdtos\\updateblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\profiles\\blogprofile\\blogprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\profiles\\blogprofile\\blogprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\profiles\\imageprofile\\imageprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\profiles\\imageprofile\\imageprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\views\\image\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\views\\image\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\dtos\\imagedtos\\createimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\dtos\\imagedtos\\createimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\dtos\\imagedtos\\resultimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\dtos\\imagedtos\\resultimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\dtos\\imagedtos\\updateimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\dtos\\imagedtos\\updateimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\dtos\\blogdtos\\resultblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\dtos\\blogdtos\\resultblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\views\\uilayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\views\\uilayout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\blog.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\blog.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\controllers\\uilayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\controllers\\uilayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\migrations\\20250801140416_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\migrations\\20250801140416_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|c:\\users\\togrul\\source\\repos\\blogproject\\blog.mvc\\migrations\\20250802084118_datetypechanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B6BC06-067F-43CA-8F6F-971EBB161CAA}|Blog.Mvc\\Blog.Mvc.csproj|solutionrelative:blog.mvc\\migrations\\20250802084118_datetypechanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Blog.Mvc\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:27:04.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Contexts\\BlogDbContext.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Contexts\\BlogDbContext.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Contexts\\BlogDbContext.cs",
+              "RelativeToolTip": "Blog.Mvc\\Contexts\\BlogDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:53:49.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Sevices\\Pagination\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Sevices\\Pagination\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Sevices\\Pagination\\PaginatedList.cs",
+              "RelativeToolTip": "Blog.Mvc\\Sevices\\Pagination\\PaginatedList.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAnwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T07:14:37.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Blog\\Details.cshtml",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Views\\Blog\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Blog\\Details.cshtml",
+              "RelativeToolTip": "Blog.Mvc\\Views\\Blog\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADgvwkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T15:35:08.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Blog\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Views\\Blog\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Blog\\Edit.cshtml",
+              "RelativeToolTip": "Blog.Mvc\\Views\\Blog\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T16:00:41.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogService.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Sevices\\Implementation\\BlogService.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Sevices\\Implementation\\BlogService.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Sevices\\Implementation\\BlogService.cs",
+              "RelativeToolTip": "Blog.Mvc\\Sevices\\Implementation\\BlogService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T15:21:47.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBlogService.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Sevices\\Interfaces\\IBlogService.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Sevices\\Interfaces\\IBlogService.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Sevices\\Interfaces\\IBlogService.cs",
+              "RelativeToolTip": "Blog.Mvc\\Sevices\\Interfaces\\IBlogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T15:23:37.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Blog.Mvc\\Repositories\\Repository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:10:09.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Blog\\Create.cshtml",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Views\\Blog\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Blog\\Create.cshtml",
+              "RelativeToolTip": "Blog.Mvc\\Views\\Blog\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T14:28:19.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Blog.Mvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEEAAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T13:38:48.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Blog.Mvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:27:58.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Remove.cshtml",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Image\\Remove.cshtml",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Views\\Image\\Remove.cshtml",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Image\\Remove.cshtml",
+              "RelativeToolTip": "Blog.Mvc\\Views\\Image\\Remove.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T17:08:10.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Entities\\Blog.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Entities\\Blog.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Entities\\Blog.cs",
+              "RelativeToolTip": "Blog.Mvc\\Entities\\Blog.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:48:06.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Entities\\Image.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Entities\\Image.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Entities\\Image.cs",
+              "RelativeToolTip": "Blog.Mvc\\Entities\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:52:13.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250802084118_DateTypeChanged.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Migrations\\20250802084118_DateTypeChanged.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Migrations\\20250802084118_DateTypeChanged.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Migrations\\20250802084118_DateTypeChanged.cs",
+              "RelativeToolTip": "Blog.Mvc\\Migrations\\20250802084118_DateTypeChanged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T08:41:18.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Sevices\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Sevices\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Sevices\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Blog.Mvc\\Sevices\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:07:17.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\BlogDtos\\CreateBlogDto.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Dtos\\BlogDtos\\CreateBlogDto.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\BlogDtos\\CreateBlogDto.cs",
+              "RelativeToolTip": "Blog.Mvc\\Dtos\\BlogDtos\\CreateBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:33:05.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Repositories\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Repositories\\BlogRepository.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Repositories\\BlogRepository.cs",
+              "RelativeToolTip": "Blog.Mvc\\Repositories\\BlogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T15:18:57.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Controllers\\ImageController.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Blog.Mvc\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T15:06:39.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Program.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Program.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Program.cs",
+              "RelativeToolTip": "Blog.Mvc\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:44:11.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\BlogDtos\\UpdateBlogDto.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Dtos\\BlogDtos\\UpdateBlogDto.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\BlogDtos\\UpdateBlogDto.cs",
+              "RelativeToolTip": "Blog.Mvc\\Dtos\\BlogDtos\\UpdateBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:33:25.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BlogProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Profiles\\BlogProfile\\BlogProfile.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Profiles\\BlogProfile\\BlogProfile.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Profiles\\BlogProfile\\BlogProfile.cs",
+              "RelativeToolTip": "Blog.Mvc\\Profiles\\BlogProfile\\BlogProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:42:22.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ImageProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Profiles\\ImageProfile\\ImageProfile.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Profiles\\ImageProfile\\ImageProfile.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Profiles\\ImageProfile\\ImageProfile.cs",
+              "RelativeToolTip": "Blog.Mvc\\Profiles\\ImageProfile\\ImageProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:43:26.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Image\\Create.cshtml",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Views\\Image\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Image\\Create.cshtml",
+              "RelativeToolTip": "Blog.Mvc\\Views\\Image\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T15:08:40.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\ImageDtos\\CreateImageDto.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Dtos\\ImageDtos\\CreateImageDto.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\ImageDtos\\CreateImageDto.cs",
+              "RelativeToolTip": "Blog.Mvc\\Dtos\\ImageDtos\\CreateImageDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:35:03.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ResultBlogDto.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\BlogDtos\\ResultBlogDto.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Dtos\\BlogDtos\\ResultBlogDto.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\BlogDtos\\ResultBlogDto.cs",
+              "RelativeToolTip": "Blog.Mvc\\Dtos\\BlogDtos\\ResultBlogDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:34:09.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\ImageDtos\\UpdateImageDto.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Dtos\\ImageDtos\\UpdateImageDto.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\ImageDtos\\UpdateImageDto.cs",
+              "RelativeToolTip": "Blog.Mvc\\Dtos\\ImageDtos\\UpdateImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:35:29.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ResultImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\ImageDtos\\ResultImageDto.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Dtos\\ImageDtos\\ResultImageDto.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Dtos\\ImageDtos\\ResultImageDto.cs",
+              "RelativeToolTip": "Blog.Mvc\\Dtos\\ImageDtos\\ResultImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:35:52.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250801140416_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Migrations\\20250801140416_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Migrations\\20250801140416_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Migrations\\20250801140416_InitialCreate.cs",
+              "RelativeToolTip": "Blog.Mvc\\Migrations\\20250801140416_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:04:16.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Blog.Mvc.csproj",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Blog.Mvc.csproj",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Blog.Mvc.csproj",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Blog.Mvc.csproj",
+              "RelativeToolTip": "Blog.Mvc\\Blog.Mvc.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-01T13:47:29.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\UILayout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Views\\UILayout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\UILayout\\Index.cshtml",
+              "RelativeToolTip": "Blog.Mvc\\Views\\UILayout\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T13:29:25.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Blog.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T13:45:12.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UILayout.cs",
+              "DocumentMoniker": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Controllers\\UILayout.cs",
+              "RelativeDocumentMoniker": "Blog.Mvc\\Controllers\\UILayout.cs",
+              "ToolTip": "C:\\Users\\Togrul\\source\\repos\\BlogProject\\Blog.Mvc\\Controllers\\UILayout.cs",
+              "RelativeToolTip": "Blog.Mvc\\Controllers\\UILayout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:28:52.459Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
